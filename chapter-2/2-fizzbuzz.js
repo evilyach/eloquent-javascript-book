@@ -14,4 +14,4 @@ for (let i = 1; i <= 100; i++) {
 
 // Solution #2
 // if it was not an interview
-[...Array(100).keys()].forEach(i=>{console.log(!(i%15)?"FizzBuzz":(!(i%3)?"Fizz":(!(i%5)?"Buzz":i)))})
+[...Array(100).keys()].forEach(i=>{console.log(!(++i%15)?"FizzBuzz":(!(i%3)?"Fizz":(!(i%5)?"Buzz":i)))})

@@ -12,4 +12,10 @@ for(let i=1;i<8;i++){console.log("#".repeat(i))}
 
 // Most time efficient
 // even though we keep string instead of number, we only have one loop for speed
-for(let t="#";t.length<8;t+="#"){console.log(t)}
+for(let i="#";i.length<8;i+="#"){console.log(i)}
+
+// Most pretty
+// don't worry, I can write readable code :)
+for (let i = "#"; i.length <= 7; i += "#") {
+    console.log(i)
+}

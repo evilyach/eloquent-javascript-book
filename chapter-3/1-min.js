@@ -26,12 +26,15 @@ class FancyCompanyNameGetMin {
                     return b;
                 } else {
                     console.log(`[!] ERROR: Could not find min out of a = ${a} and b = ${b}`)
+                    return undefined;
                 }
             } catch (e) {
                 console.log(`[!] ERROR: Could not find min out of a = ${a} and b = ${b}: ${e}`)
+                return undefined;
             }
         } catch (e) {
             console.log(`[!] ERROR: Could not find min out of a = ${a} and b = ${b}: ${e}`)
+            return undefined;
         }
     }
 }

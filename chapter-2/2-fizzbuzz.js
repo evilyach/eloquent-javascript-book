@@ -13,5 +13,13 @@ for (let i = 1; i <= 100; i++) {
 }
 
 // Solution #2
-// if it was not an interview
+// if it was not an interview and I wanted to do something stupid
 [...Array(100).keys()].forEach(i=>{console.log(!(++i%15)?"FizzBuzz":(!(i%3)?"Fizz":(!(i%5)?"Buzz":i)))})
+
+// Solution #3
+// For-loops are actually somehow the shortest
+for(let i=1;i<101;i++){{console.log(!(i%15)?"FizzBuzz":(!(i%3)?"Fizz":(!(i%5)?"Buzz":i)))}}
+
+// Solution #4
+// While-loops is a little bit larger than for-loops
+let i=1;while(i<101){{console.log(!(i%15)?"FizzBuzz":(!(i%3)?"Fizz":(!(i%5)?"Buzz":i)))};i++}

@@ -21,5 +21,5 @@ for (let i = 1; i <= 100; i++) {
 for(let i=1;i<101;i++){{console.log(!(i%15)?"FizzBuzz":(!(i%3)?"Fizz":(!(i%5)?"Buzz":i)))}}
 
 // Solution #4
-// While-loops is a little bit larger than for-loops
+// While-loops are a little bit larger than for-loops
 let i=1;while(i<101){{console.log(!(i%15)?"FizzBuzz":(!(i%3)?"Fizz":(!(i%5)?"Buzz":i)))};i++}
